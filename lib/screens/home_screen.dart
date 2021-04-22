@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("My App"),
+        title: Text("Space Finder"),
       ),
       drawer: Drawer(
         child: ListView(
