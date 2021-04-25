@@ -50,6 +50,13 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Space Finder"),
+        actions: [
+          IconButton(
+              icon: Icon(Icons.exit_to_app),
+              onPressed: () {
+                Navigator.pushReplacementNamed(context, "/login");
+              })
+        ],
       ),
       drawer: Drawer(
         child: ListView(
