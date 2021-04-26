@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:space_finder/screens/destination_screen.dart';
 import 'package:space_finder/screens/home_screen.dart';
 import 'package:space_finder/screens/login_page.dart';
+import 'package:space_finder/screens/splash_page.dart';
 import 'package:space_finder/utils/constants.dart';
 
-void main() {
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  Constants.prefs = await SharedPreferences.getInstance();
+
   runApp(MyApp());
 }
 
@@ -24,6 +29,7 @@ class MyApp extends StatelessWidget {
           ? HomeScreen()
           : LoginPage(),
       routes: {
+        "/splash": (context) => SplashPage(),
         "/login": (context) => LoginPage(),
         "/home": (context) => HomeScreen(),
         "/destination": (context) => DestinationScreen(),

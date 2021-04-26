@@ -12,10 +12,10 @@ class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
   int _currentTab = 0;
   List<IconData> _icons = [
-    FontAwesomeIcons.plane,
-    FontAwesomeIcons.bed,
-    FontAwesomeIcons.walking,
-    FontAwesomeIcons.biking,
+    FontAwesomeIcons.landmark,
+    FontAwesomeIcons.swimmingPool,
+    FontAwesomeIcons.tree,
+    FontAwesomeIcons.peopleCarry,
   ];
 
   Widget _buildIcon(int index) {
@@ -54,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
           IconButton(
               icon: Icon(Icons.exit_to_app),
               onPressed: () {
-                Navigator.pushReplacementNamed(context, "/login");
+                Navigator.pushReplacementNamed(context, "/splash");
               })
         ],
       ),

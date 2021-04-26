@@ -19,47 +19,47 @@ class Destination {
 List<Activity> activities = [
   Activity(
     imageUrl: 'assets/images/stmarksbasilica.jpg',
-    name: 'St. Mark\'s Basilica',
-    type: 'Sightseeing Tour',
-    startTimes: ['9:00 am', '11:00 am'],
+    name: 'Event Venu',
+    type: 'Marriage Hall',
+    startTimes: ['9:00 am', '11:00 pm'],
     rating: 5,
-    price: 30,
+    price: 80000,
   ),
   Activity(
-    imageUrl: 'assets/images/gondola.jpg',
-    name: 'Walking Tour and Gonadola Ride',
+    imageUrl: 'assets/images/bahria.jpg',
+    name: 'Golf ',
     type: 'Sightseeing Tour',
-    startTimes: ['11:00 pm', '1:00 pm'],
+    startTimes: ['9:00 am', '11:00 pm'],
     rating: 4,
-    price: 210,
+    price: 70000,
   ),
   Activity(
     imageUrl: 'assets/images/murano.jpg',
-    name: 'Murano and Burano Tour',
+    name: 'Pool',
     type: 'Sightseeing Tour',
-    startTimes: ['12:30 pm', '2:00 pm'],
+    startTimes: ['9:00 am', '11:00 pm'],
     rating: 3,
-    price: 125,
+    price: 50000,
   ),
 ];
 
 List<Destination> destinations = [
   Destination(
-    imageUrl: 'assets/images/venice.jpg',
+    imageUrl: 'assets/images/badshahi.jpg',
     city: 'Lahore',
     country: 'Pakistan',
     description: 'Visit Lahore for an amazing and unforgettable adventure.',
     activities: activities,
   ),
   Destination(
-    imageUrl: 'assets/images/paris.jpg',
+    imageUrl: 'assets/images/islamabad.jpg',
     city: 'Islamabad',
     country: 'Pakistan',
     description: 'Visit Islamabad for an amazing and unforgettable adventure.',
     activities: activities,
   ),
   Destination(
-    imageUrl: 'assets/images/newdelhi.jpg',
+    imageUrl: 'assets/images/karachi.jpg',
     city: 'Karachi',
     country: 'Pakistan',
     description:
@@ -67,14 +67,14 @@ List<Destination> destinations = [
     activities: activities,
   ),
   Destination(
-    imageUrl: 'assets/images/saopaulo.jpg',
+    imageUrl: 'assets/images/peshawar.jpg',
     city: 'Peshawar',
     country: 'Pakistan',
     description: 'Visit Peshawar  for an amazing and unforgettable adventure.',
     activities: activities,
   ),
   Destination(
-    imageUrl: 'assets/images/newyork.jpg',
+    imageUrl: 'assets/images/quetta.jpg',
     city: 'Quetta',
     country: 'Pakistan',
     description: 'Visit Quetta for an amazing and unforgettable adventure.',
